@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-
 import RandomImagePicker from "./RandomImagePicker";
 
 const Home = () => {

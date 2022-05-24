@@ -122,11 +122,3 @@ main {
   width: 30%;
   margin: 15px;
 }
-
-select {
-  margin: 20px;
-  width: 105px;
-  height: 50px;
-  float: right;
-  font-family: "Ubuntu", sans-serif;
-}

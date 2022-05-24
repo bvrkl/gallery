@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home";
+import Collections from "./Collections/Collections";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/collections" element={<Collections />} />
         </Routes>
       </Router>
     </div>
